@@ -9,6 +9,16 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
+    
+    <style>
+    body {
+          background-image: url({{asset ('omod.jpg') }});
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+
+         }
+    </style>
 
     <!-- Bootstrap core CSS. Bootswatch: Lumen -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
