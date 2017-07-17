@@ -107,6 +107,11 @@
 
         @include('layouts._flash')
         @yield('content')
+
+        <footer class="row">
+        @include('layouts.footer')
+    </footer>
+
     </div>
 
     <!-- Bootstrap core JavaScript
